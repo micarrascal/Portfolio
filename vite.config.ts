@@ -50,9 +50,10 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
+     build: {
+      target: "esnext",
+      outDir: "build",
+      emptyOutDir: true,
     },
     server: {
       port: 3000,

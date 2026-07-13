@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { Mail, Linkedin, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import type { ChangeEvent } from 'react';
 import { useApp } from '../context/AppContext';
@@ -105,20 +105,6 @@ export function Contact() {
                 </div>
               </a>
 
-              <a
-                href="https://github.com/micarrascal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 rounded-xl hover:shadow-lg transition-all border border-pink-100 dark:border-pink-800/30 group"
-              >
-                <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform">
-                  <Github className="w-6 h-6" />
-                </div>
-                <div>
-                  <div className="font-semibold text-gray-900 dark:text-white">GitHub</div>
-                  <div className="text-gray-600 dark:text-gray-400 text-sm">github.com/micarrascal</div>
-                </div>
-              </a>
             </div>
           </div>
 

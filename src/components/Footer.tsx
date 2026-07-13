@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 export function Footer() {
@@ -38,15 +38,6 @@ export function Footer() {
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://github.com/isabelcarrascal"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 hover:border-pink-300 dark:hover:border-pink-600 hover:shadow-lg transition-all"
-              aria-label="GitHub"
-            >
-              <Github className="w-5 h-5" />
             </a>
           </div>
         </div>

@@ -53,7 +53,7 @@ ${allUrls
   .join('\n')}
 </urlset>`;
 
-        const outFile = path.resolve(__dirname, 'docs/sitemap.xml');
+        const outFile = path.resolve(__dirname, 'build/sitemap.xml');
         writeFileSync(outFile, xml);
         console.log(`\n✓ sitemap.xml — ${allUrls.length} URLs (${postUrls.length} blog posts)`);
       },
@@ -108,7 +108,7 @@ ${allUrls
     },
     build: {
       target: 'esnext',
-      outDir: 'docs',
+      outDir: 'build',
     },
     server: {
       port: 3000,

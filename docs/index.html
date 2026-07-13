@@ -74,6 +74,13 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <script>
+      // Restore path redirected from 404.html
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) window.history.replaceState(null, '', decodeURIComponent(p));
+      })();
+    </script>
   </body>
 </html>

@@ -38,7 +38,7 @@ export default function CVPage() {
       <div className="flex-1 p-6">
         <div className="max-w-4xl mx-auto h-full">
           <iframe
-            src={`${CV_URL}#toolbar=0&navpanes=0`}
+            src={CV_URL}
             className="w-full rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm bg-white"
             style={{ height: 'calc(100vh - 120px)', minHeight: '600px' }}
             title="Isabel Carrascal — CV"

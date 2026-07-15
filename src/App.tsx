@@ -19,6 +19,9 @@ import ConsumoInflacionPage from './pages/ConsumoInflacionPage';
 import BlogListPage from './pages/BlogListPage';
 import BlogPostPage from './pages/BlogPostPage';
 import CVPage from './pages/CVPage';
+import ProjectsPage from './pages/ProjectsPage';
+import ColombiaPage from './pages/ColombiaPage';
+import BancosPage from './pages/BancosPage';
 
 function Home() {
   useSEO(
@@ -54,6 +57,9 @@ export default function App() {
         <Route path="/blog" element={<BlogListPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/cv" element={<CVPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/colombia" element={<ColombiaPage />} />
+        <Route path="/bancos" element={<BancosPage />} />
       </Routes>
     </AppProvider>
   );

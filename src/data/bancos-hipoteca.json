@@ -1,0 +1,72 @@
+[
+  {
+    "banco": "Bancolombia",
+    "tasa_ea": 13.50,
+    "participacion": 29.8,
+    "desembolsos_b": 5.82,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Davivienda",
+    "tasa_ea": 14.20,
+    "participacion": 22.1,
+    "desembolsos_b": 4.31,
+    "tipo": "privado"
+  },
+  {
+    "banco": "BBVA Colombia",
+    "tasa_ea": 13.80,
+    "participacion": 12.4,
+    "desembolsos_b": 2.42,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Banco de Bogota",
+    "tasa_ea": 14.50,
+    "participacion": 9.7,
+    "desembolsos_b": 1.89,
+    "tipo": "privado"
+  },
+  {
+    "banco": "AV Villas",
+    "tasa_ea": 14.80,
+    "participacion": 7.2,
+    "desembolsos_b": 1.40,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Scotiabank Colpatria",
+    "tasa_ea": 14.90,
+    "participacion": 5.8,
+    "desembolsos_b": 1.13,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Caja Social",
+    "tasa_ea": 12.85,
+    "participacion": 4.1,
+    "desembolsos_b": 0.80,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Itau Colombia",
+    "tasa_ea": 13.65,
+    "participacion": 3.9,
+    "desembolsos_b": 0.76,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Banco Popular",
+    "tasa_ea": 15.10,
+    "participacion": 2.8,
+    "desembolsos_b": 0.55,
+    "tipo": "privado"
+  },
+  {
+    "banco": "Banco Agrario",
+    "tasa_ea": 11.20,
+    "participacion": 2.1,
+    "desembolsos_b": 0.41,
+    "tipo": "publico"
+  }
+]

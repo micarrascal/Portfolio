@@ -1,0 +1,22 @@
+[
+  {
+    "modalidad": "Comercial",
+    "cartera": 325.4,
+    "mora": 4.2
+  },
+  {
+    "modalidad": "Consumo",
+    "cartera": 218.7,
+    "mora": 5.8
+  },
+  {
+    "modalidad": "Hipotecario",
+    "cartera": 97.3,
+    "mora": 3.1
+  },
+  {
+    "modalidad": "Microcr\u00e9dito",
+    "cartera": 17.8,
+    "mora": 7.4
+  }
+]

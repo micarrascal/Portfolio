@@ -1,9 +1,44 @@
 [
-  {"ciudad":"Bogotá","precio_m2":7600000,"precio_usd":1900,"var_anual":5.6},
-  {"ciudad":"Medellín","precio_m2":6800000,"precio_usd":1700,"var_anual":4.2},
-  {"ciudad":"Cartagena","precio_m2":5800000,"precio_usd":1450,"var_anual":6.1},
-  {"ciudad":"Cali","precio_m2":4200000,"precio_usd":1050,"var_anual":2.8},
-  {"ciudad":"Pereira","precio_m2":4100000,"precio_usd":1025,"var_anual":3.4},
-  {"ciudad":"Barranquilla","precio_m2":3900000,"precio_usd":975,"var_anual":3.1},
-  {"ciudad":"Bucaramanga","precio_m2":3400000,"precio_usd":850,"var_anual":2.4}
+  {
+    "ciudad": "Bogot\u00e1",
+    "precio_m2": 7600000,
+    "precio_usd": 1900,
+    "var_anual": 5.6
+  },
+  {
+    "ciudad": "Medell\u00edn",
+    "precio_m2": 6800000,
+    "precio_usd": 1700,
+    "var_anual": 4.2
+  },
+  {
+    "ciudad": "Cartagena",
+    "precio_m2": 5800000,
+    "precio_usd": 1450,
+    "var_anual": 6.1
+  },
+  {
+    "ciudad": "Cali",
+    "precio_m2": 4200000,
+    "precio_usd": 1050,
+    "var_anual": 2.8
+  },
+  {
+    "ciudad": "Pereira",
+    "precio_m2": 4100000,
+    "precio_usd": 1025,
+    "var_anual": 3.4
+  },
+  {
+    "ciudad": "Barranquilla",
+    "precio_m2": 3900000,
+    "precio_usd": 975,
+    "var_anual": 3.1
+  },
+  {
+    "ciudad": "Bucaramanga",
+    "precio_m2": 3400000,
+    "precio_usd": 850,
+    "var_anual": 2.4
+  }
 ]

@@ -1,8 +1,38 @@
 [
-  {"year":2019,"precio_m2_m":5.2,"tasa_repo":4.25,"ipc":3.80},
-  {"year":2020,"precio_m2_m":5.1,"tasa_repo":1.75,"ipc":1.61},
-  {"year":2021,"precio_m2_m":5.8,"tasa_repo":1.75,"ipc":5.62},
-  {"year":2022,"precio_m2_m":6.7,"tasa_repo":7.50,"ipc":13.12},
-  {"year":2023,"precio_m2_m":7.2,"tasa_repo":12.75,"ipc":9.28},
-  {"year":2024,"precio_m2_m":7.6,"tasa_repo":9.75,"ipc":5.20}
+  {
+    "year": 2019,
+    "precio_m2_m": 5.2,
+    "tasa_repo": 4.25,
+    "ipc": 3.8
+  },
+  {
+    "year": 2020,
+    "precio_m2_m": 5.1,
+    "tasa_repo": 1.75,
+    "ipc": 1.61
+  },
+  {
+    "year": 2021,
+    "precio_m2_m": 5.8,
+    "tasa_repo": 1.75,
+    "ipc": 5.62
+  },
+  {
+    "year": 2022,
+    "precio_m2_m": 6.7,
+    "tasa_repo": 7.5,
+    "ipc": 13.12
+  },
+  {
+    "year": 2023,
+    "precio_m2_m": 7.2,
+    "tasa_repo": 12.75,
+    "ipc": 9.28
+  },
+  {
+    "year": 2024,
+    "precio_m2_m": 7.6,
+    "tasa_repo": 9.75,
+    "ipc": 5.2
+  }
 ]

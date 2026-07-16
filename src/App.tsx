@@ -22,6 +22,8 @@ import CVPage from './pages/CVPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ColombiaPage from './pages/ColombiaPage';
 import BancosPage from './pages/BancosPage';
+import DashboardsPage from './pages/DashboardsPage';
+import BogotaRealEstatePage from './pages/BogotaRealEstatePage';
 
 function Home() {
   useSEO(
@@ -60,6 +62,8 @@ export default function App() {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/colombia" element={<ColombiaPage />} />
         <Route path="/bancos" element={<BancosPage />} />
+        <Route path="/dashboards" element={<DashboardsPage />} />
+        <Route path="/real-estate" element={<BogotaRealEstatePage />} />
       </Routes>
     </AppProvider>
   );

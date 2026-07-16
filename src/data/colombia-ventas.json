@@ -1,0 +1,9 @@
+[
+  {"year":2018,"total":187500,"vis":115000,"no_vis":72500,"tasa_repo":4.25},
+  {"year":2019,"total":195200,"vis":118400,"no_vis":76800,"tasa_repo":4.25},
+  {"year":2020,"total":141800,"vis":98200,"no_vis":43600,"tasa_repo":1.75},
+  {"year":2021,"total":231400,"vis":148100,"no_vis":83300,"tasa_repo":1.75},
+  {"year":2022,"total":248100,"vis":156000,"no_vis":92100,"tasa_repo":7.50},
+  {"year":2023,"total":198700,"vis":128300,"no_vis":70400,"tasa_repo":12.75},
+  {"year":2024,"total":175300,"vis":112000,"no_vis":63300,"tasa_repo":9.75}
+]

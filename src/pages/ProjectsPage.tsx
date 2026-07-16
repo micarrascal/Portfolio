@@ -1,4 +1,4 @@
-import { ArrowRight, BarChart2, Building2 } from 'lucide-react';
+import { ArrowRight, BarChart2, Building2, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Navigation } from '../components/Navigation';
 import { Footer } from '../components/Footer';
@@ -116,6 +116,52 @@ export default function ProjectsPage() {
                 </div>
               </Link>
             ))}
+
+            {/* Bogota Real Estate card */}
+            <Link
+              to="/real-estate"
+              className="group bg-gradient-to-br from-rose-50 to-pink-50 dark:from-rose-900/20 dark:to-pink-900/20 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border border-rose-200 dark:border-rose-800 hover:border-rose-400 dark:hover:border-rose-600"
+            >
+              <div className="inline-block px-3 py-1 bg-gradient-to-r from-rose-500 to-pink-500 text-white rounded-full text-xs font-semibold mb-4">
+                Real Estate · Web Scraping
+              </div>
+
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-gradient-to-br from-rose-500 to-pink-500 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                  <Home className="w-5 h-5" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+                  Bogotá Real Estate
+                </h3>
+              </div>
+
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-4">
+                {language === 'es'
+                  ? 'Precio promedio por m² por localidad en Bogotá, evolución nacional de ventas de vivienda y comparativa entre ciudades colombianas. Web scraping sobre Metrocuadrado.com.'
+                  : 'Average price per m² by Bogotá locality, national housing sales trends, and Colombian city comparison. Built with web scraping on Metrocuadrado.com.'}
+              </p>
+
+              <div className="mb-4 p-3 bg-white/70 dark:bg-gray-800/50 rounded-lg border border-rose-100 dark:border-rose-800/30">
+                <p className="text-sm font-semibold text-rose-700 dark:text-rose-300">
+                  {language === 'es'
+                    ? '5.2× brecha de precio entre Usaquén y Ciudad Bolívar'
+                    : '5.2× price gap between Usaquén and Ciudad Bolívar'}
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-2 mb-4">
+                {['Python', 'BeautifulSoup', 'Recharts', 'react-simple-maps'].map(tag => (
+                  <span key={tag} className="px-3 py-1 bg-white/80 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-md text-xs font-medium">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex items-center gap-2 text-rose-600 dark:text-rose-400 font-medium text-sm group-hover:gap-3 transition-all">
+                {language === 'es' ? 'Explorar análisis' : 'Explore analysis'}
+                <ArrowRight className="w-4 h-4" />
+              </div>
+            </Link>
 
             {/* Bancos e Hipotecas card */}
             <Link

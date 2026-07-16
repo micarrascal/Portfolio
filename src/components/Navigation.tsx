@@ -6,6 +6,7 @@ export function Navigation() {
   const { theme, toggleTheme, language, toggleLanguage } = useApp();
   const location = useLocation();
   const isProjects = location.pathname === '/projects';
+  const isDashboards = location.pathname === '/dashboards';
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
@@ -37,6 +38,16 @@ export function Navigation() {
             }`}
           >
             Projects
+          </Link>
+          <Link
+            to="/dashboards"
+            className={`px-4 py-1.5 rounded-lg text-sm font-semibold transition-all ${
+              isDashboards
+                ? 'bg-pink-50 dark:bg-pink-900/20 text-pink-600 dark:text-pink-400'
+                : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800'
+            }`}
+          >
+            Dashboards
           </Link>
         </div>
 

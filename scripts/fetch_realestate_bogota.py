@@ -225,16 +225,11 @@ FALLBACK_PRICES = {
 # ── 3. Download Bogota localities GeoJSON ────────────────────────────────────
 
 GEO_SOURCES = [
-    # IDECA — Bogota official GIS REST API
+    # Catastro Bogota — ArcGIS REST API (ordenamientoterritorial/localidad)
     (
         "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/"
-        "social/localidades/MapServer/0/query"
+        "ordenamientoterritorial/localidad/MapServer/0/query"
         "?where=1%3D1&outFields=*&f=geojson"
-    ),
-    # Bogota datos abiertos — ArcGIS hub
-    (
-        "https://opendata.arcgis.com/datasets/"
-        "cbe3fcfe7d6a48869d8d4de8cd7de001_0.geojson"
     ),
 ]
 

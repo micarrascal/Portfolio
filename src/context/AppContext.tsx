@@ -22,7 +22,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.title': 'Isabel Carrascal',
     'hero.subtitle': 'Data & Analytics Expert',
     'hero.tagline': 'Data Analytics · BI · Open Data',
-    'hero.description': 'Transforming raw data into decisions that matter. I specialize in analytics engineering, interactive dashboards, KPI frameworks, and open data analysis — turning complex datasets into clear, actionable narratives.',
+    'hero.description': "5+ years turning data into decisions that matter. I've delivered data analytics, business intelligence, and data management projects — from data pipelines to interactive dashboards and KPI frameworks — turning complex datasets into clear, actionable narratives.",
     'hero.cta.projects': 'View Projects',
     'hero.cta.contact': 'Contact Me',
 
@@ -128,7 +128,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.title': 'Isabel Carrascal',
     'hero.subtitle': 'Data & Analytics Expert',
     'hero.tagline': 'Analítica de Datos · BI · Datos Abiertos',
-    'hero.description': 'Transformando datos en decisiones que importan. Me especializo en ingeniería analítica, dashboards interactivos, frameworks de KPIs y análisis de datos abiertos — convirtiendo datasets complejos en narrativas claras y accionables.',
+    'hero.description': 'Más de 5 años transformando datos en decisiones que importan. He desarrollado proyectos de analítica de datos, inteligencia de negocio y gestión de datos — desde pipelines de datos hasta dashboards interactivos y frameworks de KPIs — convirtiendo datasets complejos en narrativas claras y accionables.',
     'hero.cta.projects': 'Ver Proyectos',
     'hero.cta.contact': 'Contactarme',
 

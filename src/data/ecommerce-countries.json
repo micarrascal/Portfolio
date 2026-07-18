@@ -1,0 +1,217 @@
+[
+  {
+    "country": "United Kingdom",
+    "revenue": 17870978,
+    "orders": 36535
+  },
+  {
+    "country": "EIRE",
+    "revenue": 664432,
+    "orders": 626
+  },
+  {
+    "country": "Netherlands",
+    "revenue": 554232,
+    "orders": 228
+  },
+  {
+    "country": "Germany",
+    "revenue": 431262,
+    "orders": 789
+  },
+  {
+    "country": "France",
+    "revenue": 356945,
+    "orders": 622
+  },
+  {
+    "country": "Australia",
+    "revenue": 169968,
+    "orders": 95
+  },
+  {
+    "country": "Spain",
+    "revenue": 109179,
+    "orders": 154
+  },
+  {
+    "country": "Switzerland",
+    "revenue": 101011,
+    "orders": 93
+  },
+  {
+    "country": "Sweden",
+    "revenue": 91904,
+    "orders": 105
+  },
+  {
+    "country": "Denmark",
+    "revenue": 69862,
+    "orders": 43
+  },
+  {
+    "country": "Belgium",
+    "revenue": 65753,
+    "orders": 149
+  },
+  {
+    "country": "Norway",
+    "revenue": 60110,
+    "orders": 45
+  },
+  {
+    "country": "Portugal",
+    "revenue": 58017,
+    "orders": 95
+  },
+  {
+    "country": "Japan",
+    "revenue": 47138,
+    "orders": 33
+  },
+  {
+    "country": "Channel Islands",
+    "revenue": 44997,
+    "orders": 55
+  },
+  {
+    "country": "Italy",
+    "revenue": 32550,
+    "orders": 65
+  },
+  {
+    "country": "Finland",
+    "revenue": 29926,
+    "orders": 57
+  },
+  {
+    "country": "Singapore",
+    "revenue": 25317,
+    "orders": 11
+  },
+  {
+    "country": "Cyprus",
+    "revenue": 24980,
+    "orders": 37
+  },
+  {
+    "country": "Hong Kong",
+    "revenue": 23894,
+    "orders": 15
+  },
+  {
+    "country": "Austria",
+    "revenue": 23613,
+    "orders": 45
+  },
+  {
+    "country": "Greece",
+    "revenue": 19096,
+    "orders": 18
+  },
+  {
+    "country": "Israel",
+    "revenue": 11335,
+    "orders": 10
+  },
+  {
+    "country": "United Arab Emirates",
+    "revenue": 11098,
+    "orders": 16
+  },
+  {
+    "country": "Unspecified",
+    "revenue": 10936,
+    "orders": 24
+  },
+  {
+    "country": "Poland",
+    "revenue": 10902,
+    "orders": 28
+  },
+  {
+    "country": "USA",
+    "revenue": 8367,
+    "orders": 20
+  },
+  {
+    "country": "Malta",
+    "revenue": 8099,
+    "orders": 9
+  },
+  {
+    "country": "Lithuania",
+    "revenue": 6554,
+    "orders": 6
+  },
+  {
+    "country": "Iceland",
+    "revenue": 5633,
+    "orders": 8
+  },
+  {
+    "country": "Canada",
+    "revenue": 4883,
+    "orders": 8
+  },
+  {
+    "country": "RSA",
+    "revenue": 4804,
+    "orders": 4
+  },
+  {
+    "country": "Bahrain",
+    "revenue": 3110,
+    "orders": 10
+  },
+  {
+    "country": "Thailand",
+    "revenue": 3071,
+    "orders": 2
+  },
+  {
+    "country": "Lebanon",
+    "revenue": 1906,
+    "orders": 2
+  },
+  {
+    "country": "Brazil",
+    "revenue": 1412,
+    "orders": 2
+  },
+  {
+    "country": "European Community",
+    "revenue": 1300,
+    "orders": 4
+  },
+  {
+    "country": "Bermuda",
+    "revenue": 1253,
+    "orders": 1
+  },
+  {
+    "country": "Korea",
+    "revenue": 1119,
+    "orders": 2
+  },
+  {
+    "country": "Czech Republic",
+    "revenue": 827,
+    "orders": 2
+  },
+  {
+    "country": "West Indies",
+    "revenue": 536,
+    "orders": 1
+  },
+  {
+    "country": "Saudi Arabia",
+    "revenue": 146,
+    "orders": 1
+  },
+  {
+    "country": "Nigeria",
+    "revenue": 140,
+    "orders": 2
+  }
+]

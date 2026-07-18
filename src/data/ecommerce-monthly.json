@@ -1,0 +1,170 @@
+[
+  {
+    "month": "2009-12",
+    "label": "Dec 2009",
+    "revenue": 825686,
+    "prevYear": null,
+    "movingAvg3": 825686
+  },
+  {
+    "month": "2010-01",
+    "label": "Jan 2010",
+    "revenue": 652709,
+    "prevYear": null,
+    "movingAvg3": 739197
+  },
+  {
+    "month": "2010-02",
+    "label": "Feb 2010",
+    "revenue": 553340,
+    "prevYear": null,
+    "movingAvg3": 677245
+  },
+  {
+    "month": "2010-03",
+    "label": "Mar 2010",
+    "revenue": 833570,
+    "prevYear": null,
+    "movingAvg3": 679873
+  },
+  {
+    "month": "2010-04",
+    "label": "Apr 2010",
+    "revenue": 681529,
+    "prevYear": null,
+    "movingAvg3": 689480
+  },
+  {
+    "month": "2010-05",
+    "label": "May 2010",
+    "revenue": 659859,
+    "prevYear": null,
+    "movingAvg3": 724986
+  },
+  {
+    "month": "2010-06",
+    "label": "Jun 2010",
+    "revenue": 752270,
+    "prevYear": null,
+    "movingAvg3": 697886
+  },
+  {
+    "month": "2010-07",
+    "label": "Jul 2010",
+    "revenue": 650713,
+    "prevYear": null,
+    "movingAvg3": 687614
+  },
+  {
+    "month": "2010-08",
+    "label": "Aug 2010",
+    "revenue": 697275,
+    "prevYear": null,
+    "movingAvg3": 700086
+  },
+  {
+    "month": "2010-09",
+    "label": "Sep 2010",
+    "revenue": 924333,
+    "prevYear": null,
+    "movingAvg3": 757440
+  },
+  {
+    "month": "2010-10",
+    "label": "Oct 2010",
+    "revenue": 1165484,
+    "prevYear": null,
+    "movingAvg3": 929031
+  },
+  {
+    "month": "2010-11",
+    "label": "Nov 2010",
+    "revenue": 1470272,
+    "prevYear": null,
+    "movingAvg3": 1186696
+  },
+  {
+    "month": "2010-12",
+    "label": "Dec 2010",
+    "revenue": 1262599,
+    "prevYear": 825686,
+    "movingAvg3": 1299452
+  },
+  {
+    "month": "2011-01",
+    "label": "Jan 2011",
+    "revenue": 691365,
+    "prevYear": 652709,
+    "movingAvg3": 1141412
+  },
+  {
+    "month": "2011-02",
+    "label": "Feb 2011",
+    "revenue": 523632,
+    "prevYear": 553340,
+    "movingAvg3": 825865
+  },
+  {
+    "month": "2011-03",
+    "label": "Mar 2011",
+    "revenue": 717639,
+    "prevYear": 833570,
+    "movingAvg3": 644212
+  },
+  {
+    "month": "2011-04",
+    "label": "Apr 2011",
+    "revenue": 537809,
+    "prevYear": 681529,
+    "movingAvg3": 593027
+  },
+  {
+    "month": "2011-05",
+    "label": "May 2011",
+    "revenue": 770536,
+    "prevYear": 659859,
+    "movingAvg3": 675328
+  },
+  {
+    "month": "2011-06",
+    "label": "Jun 2011",
+    "revenue": 761740,
+    "prevYear": 752270,
+    "movingAvg3": 690028
+  },
+  {
+    "month": "2011-07",
+    "label": "Jul 2011",
+    "revenue": 719221,
+    "prevYear": 650713,
+    "movingAvg3": 750499
+  },
+  {
+    "month": "2011-08",
+    "label": "Aug 2011",
+    "revenue": 759138,
+    "prevYear": 697275,
+    "movingAvg3": 746700
+  },
+  {
+    "month": "2011-09",
+    "label": "Sep 2011",
+    "revenue": 1058590,
+    "prevYear": 924333,
+    "movingAvg3": 845650
+  },
+  {
+    "month": "2011-10",
+    "label": "Oct 2011",
+    "revenue": 1154979,
+    "prevYear": 1165484,
+    "movingAvg3": 990903
+  },
+  {
+    "month": "2011-11",
+    "label": "Nov 2011",
+    "revenue": 1509496,
+    "prevYear": 1470272,
+    "movingAvg3": 1241022
+  }
+]

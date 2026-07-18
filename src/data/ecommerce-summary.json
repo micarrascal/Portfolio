@@ -1,0 +1,20 @@
+{
+  "totalRevenue": 20972595,
+  "totalOrders": 40077,
+  "uniqueCustomers": 5878,
+  "avgOrderValue": 523.31,
+  "ukRevenueShare": 85.2,
+  "cancelledInvoices": 8292,
+  "cancellationRate": 17.1,
+  "dateStart": "2009-12-01",
+  "dateEnd": "2011-12-09",
+  "sourceMonth": "December 2019",
+  "totalEvents": 3533286,
+  "totalSessions": 839812,
+  "viewToCartRate": 20.8,
+  "cartToPurchaseRate": 17.5,
+  "overallConversionRate": 3.44,
+  "cosmeticsRevenue": 1077625,
+  "cosmeticsOrders": 213176,
+  "brandKnownSharePct": 59.2
+}

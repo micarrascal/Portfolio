@@ -1,45 +1,40 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
+import { ParticleText } from './ParticleText';
 
+// Only real-data projects are featured here for now. The other project
+// pages (customer-rfm, marketing-attribution, credito-hipotecario,
+// endeudamiento, consumo-inflacion) still use fabricated placeholder
+// numbers and are intentionally left out of this grid until they're
+// rebuilt on real open data too — see PAUSED_PROJECTS below.
 const projects = [
   {
-    id: 1, slug: 'ecommerce-revenue',
+    id: 1, path: '/project/ecommerce-revenue',
     titleKey: 'project1.title', descKey: 'project1.desc',
     impactKey: 'project1.impact', categoryKey: 'project1.category',
-    tags: ['Power BI', 'SQL', 'Revenue Analytics'],
+    tags: ['Python', 'pandas', 'Real Open Data'],
   },
   {
-    id: 2, slug: 'customer-rfm',
-    titleKey: 'project2.title', descKey: 'project2.desc',
-    impactKey: 'project2.impact', categoryKey: 'project2.category',
-    tags: ['Python', 'BigQuery', 'Segmentation'],
+    id: 7, path: '/real-estate',
+    titleKey: 'project7.title', descKey: 'project7.desc',
+    impactKey: 'project7.impact', categoryKey: 'project7.category',
+    tags: ['Python', 'GeoJSON', 'Choropleth Map'],
   },
   {
-    id: 3, slug: 'marketing-attribution',
-    titleKey: 'project3.title', descKey: 'project3.desc',
-    impactKey: 'project3.impact', categoryKey: 'project3.category',
-    tags: ['Tableau', 'Google Ads API', 'Attribution'],
-  },
-  {
-    id: 4, slug: 'credito-hipotecario',
-    titleKey: 'project4.title', descKey: 'project4.desc',
-    impactKey: 'project4.impact', categoryKey: 'project4.category',
-    tags: ['Python', 'Power BI', 'Financial Analytics'],
-  },
-  {
-    id: 5, slug: 'endeudamiento',
-    titleKey: 'project5.title', descKey: 'project5.desc',
-    impactKey: 'project5.impact', categoryKey: 'project5.category',
-    tags: ['Python', 'Power BI', 'Macroeconomics'],
-  },
-  {
-    id: 6, slug: 'consumo-inflacion',
-    titleKey: 'project6.title', descKey: 'project6.desc',
-    impactKey: 'project6.impact', categoryKey: 'project6.category',
-    tags: ['Python', 'DANE', 'Inflation Analysis'],
+    id: 8, path: '/colombia',
+    titleKey: 'project8.title', descKey: 'project8.desc',
+    impactKey: 'project8.impact', categoryKey: 'project8.category',
+    tags: ['Python', 'DANE', 'Choropleth Map'],
   },
 ];
+
+// Paused pending a real-data rebuild (same treatment as ecommerce-revenue):
+// { id: 2, path: '/project/customer-rfm', titleKey: 'project2.title', ... },
+// { id: 3, path: '/project/marketing-attribution', titleKey: 'project3.title', ... },
+// { id: 4, path: '/project/credito-hipotecario', titleKey: 'project4.title', ... },
+// { id: 5, path: '/project/endeudamiento', titleKey: 'project5.title', ... },
+// { id: 6, path: '/project/consumo-inflacion', titleKey: 'project6.title', ... },
 
 export function Projects() {
   const { t } = useApp();
@@ -48,11 +43,13 @@ export function Projects() {
     <section className="py-24 px-6 bg-white dark:bg-gray-900" id="projects">
       <div className="max-w-6xl mx-auto">
 
+        {/* ── Particle divider ───────────────────── */}
+        <div className="h-24 md:h-32 mb-6">
+          <ParticleText text="Projects" fontSize={130} revealOnScroll className="w-full h-full" />
+        </div>
+
         {/* ── Section header ─────────────────────── */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            {t('projects.title')}
-          </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-pink-400 to-purple-400 dark:from-pink-500 dark:to-purple-500 mx-auto rounded-full mb-6" />
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {t('projects.subtitle')}
@@ -64,7 +61,7 @@ export function Projects() {
           {projects.map((project) => (
             <Link
               key={project.id}
-              to={`/project/${project.slug}`}
+              to={project.path}
               className="group bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border border-gray-100 dark:border-gray-700 hover:border-pink-200 dark:hover:border-pink-600"
             >
               {/* Category badge */}

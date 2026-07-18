@@ -1,0 +1,18 @@
+[
+  {
+    "stage": "Sessions",
+    "value": 839812
+  },
+  {
+    "stage": "Viewed Product",
+    "value": 794416
+  },
+  {
+    "stage": "Added to Cart",
+    "value": 165295
+  },
+  {
+    "stage": "Purchased",
+    "value": 28894
+  }
+]

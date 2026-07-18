@@ -1,0 +1,52 @@
+[
+  {
+    "brand": "runail",
+    "revenue": 58177,
+    "orders": 18199
+  },
+  {
+    "brand": "grattol",
+    "revenue": 43794,
+    "orders": 8171
+  },
+  {
+    "brand": "irisk",
+    "revenue": 35292,
+    "orders": 10583
+  },
+  {
+    "brand": "uno",
+    "revenue": 29085,
+    "orders": 2780
+  },
+  {
+    "brand": "estel",
+    "revenue": 24474,
+    "orders": 4116
+  },
+  {
+    "brand": "jessnail",
+    "revenue": 24075,
+    "orders": 1823
+  },
+  {
+    "brand": "strong",
+    "revenue": 22266,
+    "orders": 120
+  },
+  {
+    "brand": "masura",
+    "revenue": 19809,
+    "orders": 6985
+  },
+  {
+    "brand": "cnd",
+    "revenue": 19379,
+    "orders": 1299
+  },
+  {
+    "brand": "ingarden",
+    "revenue": 18938,
+    "orders": 4157
+  }
+]

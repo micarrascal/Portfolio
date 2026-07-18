@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Home Decor",
+    "revenue": 5247739,
+    "units": 2563880,
+    "products": 938
+  },
+  {
+    "category": "Other",
+    "revenue": 4739067,
+    "units": 3047509,
+    "products": 1638
+  },
+  {
+    "category": "Kitchen & Dining",
+    "revenue": 3645006,
+    "units": 1590748,
+    "products": 591
+  },
+  {
+    "category": "Bags & Accessories",
+    "revenue": 2186621,
+    "units": 1317404,
+    "products": 270
+  },
+  {
+    "category": "Lighting & Candles",
+    "revenue": 1236982,
+    "units": 744656,
+    "products": 434
+  },
+  {
+    "category": "Stationery & Cards",
+    "revenue": 1017426,
+    "units": 1021035,
+    "products": 350
+  },
+  {
+    "category": "Christmas & Seasonal",
+    "revenue": 970040,
+    "units": 638691,
+    "products": 278
+  },
+  {
+    "category": "Toys & Games",
+    "revenue": 454988,
+    "units": 191079,
+    "products": 65
+  },
+  {
+    "category": "Garden",
+    "revenue": 381954,
+    "units": 133494,
+    "products": 71
+  },
+  {
+    "category": "Jewelry & Fashion",
+    "revenue": 230900,
+    "units": 154361,
+    "products": 326
+  }
+]

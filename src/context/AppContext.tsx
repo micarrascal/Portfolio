@@ -55,9 +55,19 @@ const translations: Record<Language, Record<string, string>> = {
     'projects.filter.opendata': 'Colombia Open Data',
 
     'project1.title': 'E-Commerce Revenue Analytics',
-    'project1.desc': 'End-to-end Power BI dashboard tracking revenue vs target, customer lifetime value, and product performance with real-time Shopify integration.',
-    'project1.impact': '↑ 35% data-driven decisions · $250K untapped revenue identified',
-    'project1.category': 'E-Commerce Analytics',
+    'project1.desc': 'Revenue trend, category performance and a real conversion funnel, built entirely on open datasets: real UK retailer transactions and real cosmetics-store clickstream.',
+    'project1.impact': '3.44% real funnel conversion · 17.1% cancellation rate flagged',
+    'project1.category': 'E-Commerce Analytics · Real Data',
+
+    'project7.title': 'Bogotá Real Estate Market',
+    'project7.desc': 'Interactive choropleth map and dashboard analyzing price per m² across Bogotá\'s 20 localities, national housing sales cycles, and city comparisons.',
+    'project7.impact': '19 localities mapped · 5.2× price gap Usaquén vs Ciudad Bolívar',
+    'project7.category': 'Real Estate · Real Data',
+
+    'project8.title': 'Colombia in Data',
+    'project8.desc': 'Interactive financial inclusion map by department, CPI inflation history, and credit portfolio breakdown for the Colombian financial system.',
+    'project8.impact': '33 departments mapped · 2022 inflation peak: 13.12%',
+    'project8.category': 'Colombia Open Data · Real Data',
 
     'project2.title': 'Customer RFM Segmentation',
     'project2.desc': 'Python + BigQuery clustering model segmenting customers by Recency, Frequency, and Monetary value to enable precision retention campaigns.',
@@ -86,39 +96,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Case Study
     'case.title': 'Featured Case Study',
-    'case.subtitle': 'E-Commerce Revenue Analytics Dashboard',
+    'case.subtitle': 'Colombia in Data — Real Financial System Data',
     'case.back': 'Back to Projects',
     'case.next': 'Next Case Study',
-
-    'case.kpi1': 'Total Revenue',
-    'case.kpi2': 'Conversion Rate',
-    'case.kpi3': 'Avg Order Value',
-    'case.kpi4': 'Customer LTV',
-    'case.vs': 'vs last period',
-    'case.increase': 'increase',
-    'case.improvement': 'improvement',
-    'case.growth': 'growth',
-
-    'case.chart1': 'Revenue vs Target',
-    'case.chart2': 'Traffic by Channel',
-
-    'case.problem.title': 'Business Problem',
-    'case.problem.desc': 'A mid-sized e-commerce company struggled with fragmented data across multiple platforms, making it difficult to track revenue performance, understand customer behavior, and optimize marketing spend effectively.',
-
-    'case.tools.title': 'Data & Tools',
-    'case.tools.1': 'Power BI for visualization',
-    'case.tools.2': 'SQL Server for data warehouse',
-    'case.tools.3': 'Python for data transformation',
-
-    'case.kpis.title': 'KPIs & Metrics',
-    'case.kpis.1': 'Revenue, AOV, Conversion Rate',
-    'case.kpis.2': 'Customer Lifetime Value (LTV)',
-    'case.kpis.3': 'Channel attribution & ROI',
-
-    'case.impact.title': 'Insights & Impact',
-    'case.impact.1': '35% increase in data-driven decisions',
-    'case.impact.2': 'Identified $250K in untapped revenue',
-    'case.impact.3': 'Reduced reporting time by 80%',
 
     // Contact
     'contact.title': "Let's Connect",
@@ -139,14 +119,6 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.role': 'Data & Analytics Expert',
     'footer.copyright': 'All rights reserved.',
 
-    // Chart labels
-    'chart.revenue': 'Revenue',
-    'chart.target': 'Target',
-    'chart.organic': 'Organic Search',
-    'chart.paid': 'Paid Ads',
-    'chart.social': 'Social Media',
-    'chart.direct': 'Direct',
-    'chart.referral': 'Referral',
   },
   es: {
     // Navigation
@@ -189,9 +161,19 @@ const translations: Record<Language, Record<string, string>> = {
     'projects.filter.opendata': 'Datos Abiertos Colombia',
 
     'project1.title': 'Analítica de Ingresos E-Commerce',
-    'project1.desc': 'Dashboard end-to-end en Power BI rastreando ingresos vs meta, valor de vida del cliente y rendimiento de productos con integración en tiempo real de Shopify.',
-    'project1.impact': '↑ 35% decisiones basadas en datos · $250K de ingresos no aprovechados identificados',
-    'project1.category': 'Analítica E-Commerce',
+    'project1.desc': 'Tendencia de ingresos, rendimiento por categoría y un embudo de conversión real, construidos 100% sobre datasets abiertos: transacciones reales de un retailer del Reino Unido y clickstream real de una tienda de cosméticos.',
+    'project1.impact': '3.44% de conversión real del embudo · 17.1% de tasa de cancelación',
+    'project1.category': 'Analítica E-Commerce · Datos Reales',
+
+    'project7.title': 'Mercado Inmobiliario de Bogotá',
+    'project7.desc': 'Mapa interactivo y dashboard analizando precio por m² en las 20 localidades de Bogotá, ciclos de ventas de vivienda a nivel nacional, y comparación entre ciudades.',
+    'project7.impact': '19 localidades mapeadas · brecha de precio 5.2× Usaquén vs Ciudad Bolívar',
+    'project7.category': 'Bienes Raíces · Datos Reales',
+
+    'project8.title': 'Colombia en Datos',
+    'project8.desc': 'Mapa interactivo de inclusión financiera por departamento, histórico de inflación IPC, y desglose de cartera de crédito del sistema financiero colombiano.',
+    'project8.impact': '33 departamentos mapeados · pico de inflación 2022: 13.12%',
+    'project8.category': 'Datos Abiertos Colombia · Datos Reales',
 
     'project2.title': 'Segmentación RFM de Clientes',
     'project2.desc': 'Modelo de clustering en Python + BigQuery que segmenta clientes por Recencia, Frecuencia y Valor Monetario para campañas de retención de precisión.',
@@ -220,39 +202,9 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Case Study
     'case.title': 'Caso de Estudio Destacado',
-    'case.subtitle': 'Dashboard de Analítica de Ingresos E-Commerce',
+    'case.subtitle': 'Colombia en Datos — Datos Reales del Sistema Financiero',
     'case.back': 'Volver a Proyectos',
     'case.next': 'Siguiente Caso de Estudio',
-
-    'case.kpi1': 'Ingresos Totales',
-    'case.kpi2': 'Tasa de Conversión',
-    'case.kpi3': 'Valor Promedio de Pedido',
-    'case.kpi4': 'LTV del Cliente',
-    'case.vs': 'vs período anterior',
-    'case.increase': 'incremento',
-    'case.improvement': 'mejora',
-    'case.growth': 'crecimiento',
-
-    'case.chart1': 'Ingresos vs Meta',
-    'case.chart2': 'Tráfico por Canal',
-
-    'case.problem.title': 'Problema de Negocio',
-    'case.problem.desc': 'Una empresa e-commerce de tamaño medio enfrentaba datos fragmentados en múltiples plataformas, dificultando el seguimiento del rendimiento de ingresos, la comprensión del comportamiento del cliente y la optimización efectiva del gasto en marketing.',
-
-    'case.tools.title': 'Datos & Herramientas',
-    'case.tools.1': 'Power BI para visualización',
-    'case.tools.2': 'SQL Server para almacén de datos',
-    'case.tools.3': 'Python para transformación de datos',
-
-    'case.kpis.title': 'KPIs & Métricas',
-    'case.kpis.1': 'Ingresos, AOV, Tasa de Conversión',
-    'case.kpis.2': 'Valor de Vida del Cliente (LTV)',
-    'case.kpis.3': 'Atribución de canales & ROI',
-
-    'case.impact.title': 'Insights & Impacto',
-    'case.impact.1': '35% de aumento en decisiones basadas en datos',
-    'case.impact.2': 'Identificación de $250K en ingresos no aprovechados',
-    'case.impact.3': '80% de reducción en tiempo de reportes',
 
     // Contact
     'contact.title': 'Conectemos',
@@ -273,14 +225,6 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.role': 'Data & Analytics Expert',
     'footer.copyright': 'Todos los derechos reservados.',
 
-    // Chart labels
-    'chart.revenue': 'Ingresos',
-    'chart.target': 'Meta',
-    'chart.organic': 'Búsqueda Orgánica',
-    'chart.paid': 'Anuncios Pagados',
-    'chart.social': 'Redes Sociales',
-    'chart.direct': 'Directo',
-    'chart.referral': 'Referidos',
   }
 };
 

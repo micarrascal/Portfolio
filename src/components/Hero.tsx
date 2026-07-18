@@ -3,7 +3,7 @@ import { useApp } from '../context/AppContext';
 
 export function Hero() {
   const { t } = useApp();
-  
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-br from-white via-pink-50/30 to-purple-50/20 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800 pt-24">
       <div className="max-w-6xl w-full">
